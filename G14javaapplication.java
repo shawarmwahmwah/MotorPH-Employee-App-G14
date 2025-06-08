@@ -66,7 +66,7 @@ public class G14javaapplication {
     }
 
     private void showDashboard() {
-        JFrame dashFrame = new JFrame("Dashboard");
+        JFrame dashFrame = new JFrame("Welcome");
         dashFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dashFrame.setSize(400, 300);
         dashFrame.setLocationRelativeTo(null);
@@ -74,7 +74,7 @@ public class G14javaapplication {
         JPanel dashPanel = new JPanel(new GridLayout(3, 1, 10, 10));
         dashPanel.setBorder(BorderFactory.createEmptyBorder(40, 80, 40, 80));
 
-        JButton empButton = new JButton("Employee");
+        JButton empButton = new JButton("Employee Info");
         JButton attButton = new JButton("Attendance");
         JButton payrollButton = new JButton("Payroll");
 
