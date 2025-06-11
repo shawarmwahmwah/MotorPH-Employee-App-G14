@@ -1,3 +1,5 @@
+package g14javaapplication;
+
 public class Deduction {
     private String employeeId;
     private double tax;
