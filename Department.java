@@ -1,3 +1,5 @@
+package g14javaapplication;
+
 public class Department {
     private int departmentId;
     private String departmentName;
