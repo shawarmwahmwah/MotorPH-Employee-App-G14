@@ -1,3 +1,5 @@
+package g14javaapplication;
+
 public class Position {
     private String jobTitle;
     private double baseSalary;
