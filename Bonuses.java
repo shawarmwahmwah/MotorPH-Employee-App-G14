@@ -1,3 +1,5 @@
+package g14javaapplication;
+
 public class Bonuses {
     private double thirteenMonthPay;
     private double performanceBonus;
