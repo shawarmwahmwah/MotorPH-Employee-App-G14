@@ -1,3 +1,5 @@
+package g14javaapplication;
+
 public class Attendance {
     private int logId;
     private String timestamp;
