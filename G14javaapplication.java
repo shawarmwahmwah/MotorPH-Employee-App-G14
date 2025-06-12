@@ -12,10 +12,16 @@ public class g14javaapplication {
     JFrame frame;
 
     public g14javaapplication() {
-        frame = new JFrame("Payroll System");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
+        frame = new JFrame("Payroll System"); //creates a frame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+        frame.setResizable(true); //making the frame resizable
+        frame.setSize(420, 420); //to set the x-dimension, and y-dimension of frame
+        frame.setVisible(true); //make frame Visible
         frame.setLocationRelativeTo(null);
+        
+        ImageIcon image = new ImageIcon(getClass().getResource("MMDC Logo.png")); //create an ImageIcon
+        frame.setIconImage(image.getImage()); //change icon of frame
+        frame.getContentPane().setBackground(new Color(193,201,219)); //change color of Background
 
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
@@ -128,7 +134,7 @@ public class g14javaapplication {
 
         JButton submitButton = new JButton("Submit");
         submitButton.addActionListener(e -> {
-        	//Input Validation and Exception Handling
+        	//Input Validation and Exception Handling for 
         	try {
         		int logId = Integer.parseInt (logIdField.getText());
         		String timestamp = timestampField.getText();
