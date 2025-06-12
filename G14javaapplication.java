@@ -25,7 +25,10 @@ public class g14javaapplication {
 
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BorderLayout());
-
+        
+        ImageIcon image = new ImageIcon("MMDC Logo.png"); // GUI display with picture
+        //still need to code some designs here, expect errors when you execute run
+        
         JLabel titleLabel = new JLabel("Welcome to Payroll System", SwingConstants.CENTER);
         titleLabel.setFont(new Font("SansSerif", Font.BOLD, 18));
         titleLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
